@@ -38,7 +38,7 @@ Box model? Floating? Columns? What is this sorcery? You've brought people throug
 
 ## Resources
 * [All Materials for this Workshop](https://github.com/auremoser/code-camp-18) - repository on GitHub of all practice files and slides
-* [Example Portfolio Site]()
+* [Example Portfolio Site](http://aureliamoser.com/code-camp-18/practice/index.html) - practice site for zebras
 * [HTML/CSS Practice Site](http://webdive.ktam.org/web/basics) - interactive practice site for testing HTML/CSS skills
 * [Mozilla X-Ray Googles](https://goggles.mozilla.org/) - browser bookmark and tool to view/hack source code on websites
 * [Mozilla Thimble](https://thimble.mozilla.org/) - online interactive code editor and display tool for remixing sites
