@@ -6,6 +6,10 @@ This is a respository of material for a 4-part, multi-hour course in Introductio
 
 This beginner course will guide you through the basics of HTML, CSS, and Javascript. By the end of the class, you will have developed a first version of your own website.
 
+In this workshop, we'll build skills to make this profile page, for a zebra, or anyone!
+
+<img src="img/sample-page.png" alt="Screenshot of a sample page"/>
+
 ### Prerequisites:
 No previous experience is required.
 
