@@ -1,6 +1,9 @@
 # code-camp-18
 This is an overview of all possible activities for remixing and use for the Web Development Workshop at the Spring Camp - Technovation Tunisia, March 18-21st, 2018. This includes a collection of exercises and slides for a one-day workshop covering an intro of HTML/CSS/JavaScript for 50 women between ages 12-19.
 
+* [https://mzl.la/cc-site-2018](https://mzl.la/cc-site-2018) - link to all slides/materials
+* [https://mzl.la/cc-2018](https://mzl.la/cc-2018) - link to all code
+
 ## Description
 This is a respository of material for a 4-part, multi-hour course in Introduction to Web Development.
 
