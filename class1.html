@@ -50,7 +50,7 @@
 <div class="slides">
     <section>
       <img src="img/circle-gdi-logo.png" alt="GDI Logo" class="noborder">
-      <h1>Intro to HTML/CSS</h1>
+      <h2>Intro to Web Development</h2>
       <h2>Class 1</h2>
     </section>
 
@@ -78,16 +78,24 @@
       <div class = "left-align" style="width:400px">
 
       <p>Tell us about yourself.</p>
-
       <ul>
         <li>Who are you?</li>
         <li>What do you hope to get out of the class?</li>
         <li>What is your <a href="https://twitter.com/ethanschoonover/status/958188468793835520">hacker name</a>?</li>
-
       </ul>
       </div>
-      
     </section>
+
+    <section>
+      <h3>Workshop Plan</h3>
+      <img src="img/github.gif" alt="our github for class">
+      <h4><a href="https://mzl.la/cc-2018" target="_blank">https://mzl.la/cc-2018</a></h4>
+    </section>
+
+    <section data-background="#f05b62">
+      <h1 style="color: #fafafa;">Basics of Web Development</h1>
+    </section>
+
     <!-- Programming Languages -->
 
     <section>
@@ -103,6 +111,40 @@
       <h3>What is the World Wide Web?</h3>
       <p>How your computer (client) accesses websites (via servers)</p>
       <img src = "img/client-server.png" alt="Diagram showing computer connecting to server"/>
+    </section>
+
+    <!-- Terms-->
+    <section>
+      <h3>Terms</h3>
+      <ul>
+        <li><strong>Web development</strong><br />
+        The process of planning, structuring and creating a website</li>
+        <li><strong>Web development</strong><br />
+        The process of programming dynamic web applications</li>
+        <li><strong>Front end</strong><br />
+        The outwardly visible elements of a website or application</li>
+        <li><strong>Back end</strong><br />
+        The inner workings and functionality of a website or application.</li>
+      </ul>
+    </section>
+
+
+    <!-- Nitty gritty 2 - Tools -->
+    <section>
+      <h3>Tools</h3>
+      <ul>
+        <li><strong>Browser</strong><br />
+        Chrome<br />
+        Firefox</li>
+        <li><strong>Development Toolkit</strong><br />
+        Chrome - Inspector<br />
+        Firefox - Firebug</li>
+        <li><strong>Text Editor</strong><br />
+        <a href="https://atom.io/" target="_blank">Atom</a> - Windows, Mac<br />
+        <a href="https://notepad-plus-plus.org/" target="_blank">Notepad++</a> - Windows<br />
+        <a href="http://www.sublimetext.com/" target="_blank">Sublime Text</a> - Windows, Mac, Linux<br />
+        <a href="http://www.barebones.com/products/textwrangler/TextWrangler" target="_blank">TextWrangler</a> - Mac</li>
+      </ul>
     </section>
 
     <section>
@@ -154,6 +196,9 @@
        </div>
     </section>
 
+    <section data-background="#f05b62">
+      <h1 style="color: #fafafa;">Basics of HTML</h1>
+    </section>
 
     <!-- What is HTML?-->
     <section>
@@ -190,38 +235,45 @@
       </ul>
     </section>
 
-    <!-- Terms-->
+    
+
+    <!-- Develop it -->
     <section>
-      <h3>Terms</h3>
-      <ul>
-        <li><strong>Web development</strong><br />
-        The process of planning, structuring and creating a website</li>
-        <li><strong>Web development</strong><br />
-        The process of programming dynamic web applications</li>
-        <li><strong>Front end</strong><br />
-        The outwardly visible elements of a website or application</li>
-        <li><strong>Back end</strong><br />
-        The inner workings and functionality of a website or application.</li>
-      </ul>
+      <section>
+        <h3>Let's develop it!</h3>
+        <p>Sit with a partner and try to come up with a way to "think" in a code of your own.</p>
+        <img src="img/type.jpg" alt="quick fox type" />
+        <p><small><a href="https://en.wikipedia.org/wiki/The_quick_brown_fox_jumps_over_the_lazy_dog" target="_blank">The Quick Brown Fox Pangram</a></small></p>
+      </section>
+      <section>
+        <h3>Let's develop it!</h3>
+        <p>Partner 1 (human): read the following sentence to your partner:</p>
+        <h3>the <em>quick</em> <span style="color:brown;">brown</span> fox <strong>jumps</strong> over the <em>lazy</em> dog</h3>
+        <p>Partner 2 (computer)</em>: write your partner's sentence.</p>
+        <p class="fragment">We'll talk about how this works in HTML.</p>
+      </section>
+      <section>
+        <h3>Let's develop it!</h3>
+        <p>"the <em>quick</em> <span style="color:brown;">brown</span> fox <strong>jumps</strong> over the <em>lazy</em> dog"</p>
+        <pre><code class ="html">&lt;p&gt;
+  the&lt;em&gt;quick&lt;/em&gt; &lt;span style="color:brown;"&lt;brown&lt;/span&gt; fox 
+  &lt;strong&gt;jumps&lt;/strong&gt; over the &lt;em&gt;lazy&lt;/em&gt; dog
+&lt;/p&gt;
+
+</code></pre>
+        <img src="img/quick-fox.jpg" alt="quick fox image" style="height:300px;"/>
+        <p><small><a href="https://en.wikipedia.org/wiki/The_quick_brown_fox_jumps_over_the_lazy_dog" target="_blank">The Quick Brown Fox Pangram</a></small></p>
+      </section>
+  </section>
+
+    <section data-background="#f05b62">
+      <h1 style="color: #fafafa;">Building a Web Project</h1>
     </section>
 
-
-    <!-- Nitty gritty 2 - Tools -->
     <section>
-      <h3>Tools</h3>
-      <ul>
-        <li><strong>Browser</strong><br />
-        Chrome<br />
-        Firefox</li>
-        <li><strong>Development Toolkit</strong><br />
-        Chrome - Inspector<br />
-        Firefox - Firebug</li>
-        <li><strong>Text Editor</strong><br />
-        <a href="https://atom.io/" target="_blank">Atom</a> - Windows, Mac<br />
-        <a href="https://notepad-plus-plus.org/" target="_blank">Notepad++</a> - Windows<br />
-        <a href="http://www.sublimetext.com/" target="_blank">Sublime Text</a> - Windows, Mac, Linux<br />
-        <a href="http://www.barebones.com/products/textwrangler/TextWrangler" target="_blank">TextWrangler</a> - Mac</li>
-      </ul>
+      <h3>Goals</h3>
+      <img src="img/goal.jpg" alt="Soccer goal on beach"/>
+      <p><small>Photo credit: <a href="http://www.flickr.com/photos/corscri/1320198723/">Corscri Daje Tutti!</a> <a href="http://creativecommons.org/licenses/by-nc-sa/2.0/">cc</a></small></p>
     </section>
 
     <!-- Folder Structure -->
@@ -246,27 +298,9 @@
     </section>
 
     <section>
-      <h3>Goals</h3>
-      <img src="img/goal.jpg" alt="Soccer goal on beach"/>
-      <p><small>Photo credit: <a href="http://www.flickr.com/photos/corscri/1320198723/">Corscri Daje Tutti!</a> <a href="http://creativecommons.org/licenses/by-nc-sa/2.0/">cc</a></small></p>
-    </section>
-    <section>
       <h3>Final project</h3>
       <img src="img/sample-page.png" alt="Screenshot of a sample page"/>
       <p>By the end of the class, you will have built a simple site using HTML and CSS on a topic of your choice. <a href="http://aureliamoser.com/code-camp-18/practice/index.html" target="_blank">Here is one about zebras.</a>
-    </section>
-
-    <!-- Develop it -->
-    <section>
-      <h3>Let's develop it!</h3>
-      <p>Let's think a little about how code works.</p>
-      <p>Sit with a partner and try to come up with a way to "think" in a code of your own.</p>
-      <p>Partner 1 (human): use the following sentence:</p>
-      <p>The <em>quick</em> <span style="color:brown;">brown</span> fox <strong>jumps</strong> over the <em>lazy</em> dog.</p>
-      <p>Partner 2 (computer)</em>: Write your partner's sentence.</p>
-      <!-- <img src="img/sample-page.png" alt="Screenshot of a sample page"/> -->
-      <!-- <p><small><a href="https://en.wikipedia.org/wiki/The_quick_brown_fox_jumps_over_the_lazy_dog" target="_blank">The Quick Brown Fox Pangram</a></small></p> -->
-      <p class="fragment">We'll talk about how this works in HTML.</p>
     </section>
 
     <section>
@@ -291,6 +325,10 @@
         <p style="font-size:24px; color:green;">A paragraph is your content</p>
         </li>
       </ul>
+    </section>
+
+    <section data-background="#f05b62">
+      <h1 style="color: #fafafa;">HTML Syntax</h1>
     </section>
 
     <!-- HTML element-->
@@ -422,6 +460,12 @@ www.w3.org/TR/html4/loose.dtd"&gt;
       <h3>Let's develop it!</h3>
       <p>Let's get our web page set up with a doctype, head, title and body.</p>
       <p>Later we'll add some content.</p>
+      <img src="img/basic-site.gif" alt="web page in code " />
+      <p><small>Website in <a href="https://codepen.io/m00njelly/pen/ZxpZgY" target="_blank">Code Pen</a></small></p>
+    </section>
+
+    <section data-background="#f05b62">
+      <h1 style="color: #fafafa;">Hacking a Web Project</h1>
     </section>
 
     <!-- Tools that can help-->
@@ -430,12 +474,6 @@ www.w3.org/TR/html4/loose.dtd"&gt;
       <h3>Tools: <a href="https://goggles.mozilla.org/" target="_blank">X-Ray Goggles</a></h3>
       <p>X-Ray Googles is a project to help you view how code works on a website.</p>
       <img src="img/x-googles.png" alt="x-ray googles" />
-    </section>
-
-    <section>
-      <h3>Tools: <a href="" target="_blank">Thimble</a></h3>
-      <p>Thimble is a project to help you learn code in the browser: it displays your code right next to your resulting project.</p>
-      <img src="img/thimble.png" alt="thimble" />
     </section>
 
     <!-- Develop it -->
@@ -449,6 +487,10 @@ www.w3.org/TR/html4/loose.dtd"&gt;
       <h3>Let's develop it!</h3>
       <p>Let's try out <a href="https://mozilla.github.io/webmaker-curriculum/WebLiteracyBasics-I/session02-hackthenews.html" target="_blank">X-Ray Goggles</a> together for a news article: you can edit text and images on a news site!</p>
       <img src="img/googles1.gif" alt="x-googles example" />
+    </section>
+
+    <section data-background="#f05b62">
+      <h1 style="color: #fafafa;">HTML Standards</h1>
     </section>
 
     <!-- Nesting-->
@@ -498,6 +540,11 @@ www.w3.org/TR/html4/loose.dtd"&gt;
     </section>
 
     <!-- Elements -->
+
+    <section data-background="#f05b62">
+      <h1 style="color: #fafafa;">HTML Elements</h1>
+    </section>
+
     <!-- Paragraphs-->
     <section>
       <h3>Element: Paragraph</h3>
@@ -586,6 +633,8 @@ Here is a paragraph with &lt;em&gt;emphasized&lt;/em&gt; text and &lt;strong&gt;
       <p class="left-align">Let's add some content to our site!</p>
       <p class="left-align">Add one of each level of heading with 1-2 short paragraphs of text below each heading. </p>
       <p class="left-align">Use &lt;strong&gt; and &lt;em&gt; within a few paragraphs.</p>
+      <img src="img/simple-site.gif" alt="web page in code " />
+      <p><small>Website in our<a href="https://github.com/auremoser/code-camp-18/blob/master/practice/blank.html" target="_blank">Practice Files</a></small></p>
     </section>
 
     <!-- Links-->
@@ -819,8 +868,29 @@ Above us only sky
       <div class ="clear"></div>
     </section>
 
+    <section data-background="#f05b62">
+      <h1 style="color: #fafafa;">Tools + Tutorials</h1>
+    </section>
+
+    <!-- Tools for further exploration -->
     <section>
-      <h2>Questions?</h2>
+      <h3>Tools: <a href="https://thimble.mozilla.org/en-US/" target="_blank">Thimble</a></h3>
+      <p>Thimble is a project to help you learn code in the browser: it displays your code right next to your resulting project.</p>
+      <img src="img/thimble.png" alt="thimble" />
+    </section>
+    <section>
+      <h3>Tools: <a href="http://webdive.ktam.org/web/basics" target="_blank">Webdive</a></h3>
+      <p>Webdive is an interactive tutorial to help you learn HTML/CSS in the browser: it displays your code right next to your resulting project.</p>
+      <img src="img/webdive.gif" alt="webdive" />
+    </section>
+    <section>
+      <h3>Tools: <a href="https://bl.ocks.org/" target="_blank">Bl.ocks</a></h3>
+      <p>Bl.ocks is a project to help you display your code next to your visualization projects.</p>
+      <img src="img/blocks.gif" alt="blocks" />
+    </section>
+
+    <section data-background="#f05b62">
+      <h1 style="color: #fafafa;">Questions?</h1>
     </section>
 </div><!-- Close slides -->
 
