@@ -1,5 +1,5 @@
 # code-camp-18
-This is an overview of all possible activities for remixing and use for the Web Development Workshop at the Spring Camp - Technovation Tunisia, March 18-21st, 2018. This includes a collection of exercises and slides for a one-day workshop covering an intro of HTML/CSS/JavaScript for 50 women between ages 12-19.
+This is an overview of all possible activities for remixing and use for a Web Development / GH-pages Workshop. This includes a collection of exercises and slides for a one-day workshop covering an intro of HTML/CSS/JavaScript for attendees between ages 12-19.
 
 * [https://mzl.la/cc-site-2018](https://mzl.la/cc-site-2018) - link to all slides/materials
 * [https://mzl.la/cc-2018](https://mzl.la/cc-2018) - link to all code
@@ -54,6 +54,11 @@ Box model? Floating? Columns? What is this sorcery? You've brought people throug
 
 ## Credits
 This is adapted from the Girl Develop It Core HTML/CSS/JS curriculum. It was developed through the contributions of Pamela Fox, Alexis Goldstein, Erin M. Kidwell, Izzy Johnston, Jen Myers, and modified by Sylvia Pellicore and Aurelia Moser.
+
+Used at:
+
+* Technovation Tunisia, March 18-21st, 2018
+* 
 
 
 
